@@ -8,8 +8,8 @@
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "node dist/main",
-    "dev": "SET NODE_ENV=dev&& nest start --watch",
+    "start": "node dist/main", 
+    "dev": "SET NODE_ENV=prod&& nest start --watch",
     "start:production": "SET NODE_ENV=prod&& pm2 start dist/main.js --name full-stack-test",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
